@@ -3,6 +3,8 @@ body {
 font-family: Arial, sans-serif;
 color: #333;
 }
+header{text-align: center;}
+
 
 /* Headings */
 h1 {
@@ -16,7 +18,7 @@ text-align: left;
 color: #6b3e26;
 }
 
-nav p {display:flex; flex-direction: column; gap: 10px;}
+nav p {display:flex; justify-content: center; flex-direction: column; gap: 10px;}
 @media (min-width:768px){nav p{flex-direction:row}}
 
 /*sections*/
