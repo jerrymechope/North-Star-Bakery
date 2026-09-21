@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>North Star Bakery - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <header>
+        <img src="bakery-logo_c.png" alt="North Star Bakery Logo" width="200">
+    <h1>Home of the neighborhood hearth.</h1>
+    <nav>
+        <p>
+            <a href="index.html">Home </a> 
+            <a href="products.html"> Our Products</a> 
+            <a href="about.html">About Us</a> 
+            <a href="contact.html">Contact Us</a> 
+        </p>
+    </nav>
+    </header>
+    <main>
+        <section>
+            <h2> Get in Touch</h2>
+            <p>Have a question about our daily bakes, custom cakes, or want to place a special order? Drop us a line or stop by the bakery!</p>
+        </section>
+        <section>
+            <h2>Inquiry & Pre-Order Request Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Pre-Order & Inquiry Details</legend>
+                <p>
+                    <label for="name">Your Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p> 
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="pickup-date">Requested Pickup Date:</label><br>
+                    <input type="date" id="pickup-date" name="pickup_date" required>
+                </p>
+                <p>
+                    <label for="inquiry-type">Request Type:</label><br>
+                    <select id="inquiry-type" name="inquiry_type" required>
+                        <option value="">--Please choose an option--</option>
+                        <option value="preorder">Pre-Order Request</option>
+                        <option value="custom">General Question</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="item-details"> Item Details:</label><br>
+                    <textarea id="item-details" name="item_details" rows="3" cols="40" placeholder="List the items or quantities you would like to reserve..." required></textarea>
+                </p>
+                <p> <label for="allergy-notes">Allergy Notes(if applicable):</label><br>
+                    <textarea id="allergy-notes" name="allergy_notes" rows="2" cols="40" placeholder="Let us know about any dietary or allergy concerns..."></textarea>
+                </p>
+                <p>
+                        <button type="submit">Submit Request</button>
+                </p>
+                </fieldset>
+            </form>
+        </section>
+
+        <section>
+            <h2> Contact Information</h2>
+            <p><strong>Address:</strong> 123 Baker Street, Bakeryville, OR</p>
+            <p><strong>Phone:</strong> (555) 123-4567</p>
+            <p><strong>Email:</strong> info@northstarbakery.com</p>
+        </section>
+
+        <section>
+            <h2> Store Hours</h2>
+           <p><strong>Tuesday - Sunday:</strong> 6:00 AM - 3:00 PM </p>
+           <p><strong>Monday:</strong> Closed</p>
+        </section>
+    </main>
+    <footer>
+    <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

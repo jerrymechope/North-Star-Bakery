@@ -1,0 +1,27 @@
+/* Base styles for the entire page */
+body {
+font-family: Arial, sans-serif;
+color: #333;
+}
+
+/* Headings */
+h1 {
+text-align: center;
+color: #d88c5a;
+}
+
+/* Subheadings */
+h2 {
+text-align: left;
+color: #6b3e26;
+}
+
+nav p {display:flex; flex-direction: column; gap: 10px;}
+@media (min-width:768px){nav p{flex-direction:row}}
+
+/*sections*/
+section {
+background-color: #fff8f0;
+padding: 20px;
+margin-bottom: 20px;
+}
