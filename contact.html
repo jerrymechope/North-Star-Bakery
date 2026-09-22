@@ -19,22 +19,32 @@
     </nav>
     </header>
     <main>
+         <section>
+            <div id="Favorite-Banner" Style="background-color: #fff8f0; padding: 15px; text-align: center; border-bottom: 2px solid #d88c5a; margin-bottom: 20px;">
+                <strong>Your Favoirte Pastry:</strong> <span id="favorite-text">None selected</span>
+            </div>
+        </section>
         <section>
             <h2> Get in Touch</h2>
             <p>Have a question about our daily bakes, custom cakes, or want to place a special order? Drop us a line or stop by the bakery!</p>
         </section>
         <section>
             <h2>Inquiry & Pre-Order Request Form</h2>
-            <form>
+
+            <p id="error-message" style="color: #b30000; font-weight: bold;"></p>
+            <form id="contact-form" novalidate>
                 <fieldset>
                     <legend>Pre-Order & Inquiry Details</legend>
                 <p>
                     <label for="name">Your Name:</label><br>
                     <input type="text" id="name" name="name" required>
+                    <span id="name-error" style="color:#b30000; font-size: 0.9em; display:block;"></span>
                 </p>
                 <p> 
                     <label for="email">Email Address:</label><br>
                     <input type="email" id="email" name="email" required>
+                    <span id="email-error" style="color:#b30000; font-size: 0.9em; display:block;"></span>
+        
                 </p>
                 <p>
                     <label for="pickup-date">Requested Pickup Date:</label><br>
@@ -78,6 +88,6 @@
     <footer>
     <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
